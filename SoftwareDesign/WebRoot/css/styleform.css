@@ -1,0 +1,102 @@
+/*ÆÕÍ¨°´Å¥*/
+.buttonCom{
+	font-family: "ËÎÌå";
+	font-size: 10pt; 
+	cursor: hand;
+	padding: 0px;
+	height: 20px;
+	border-top: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+  	background:url(../images/util/areabg.gif);
+}
+
+.area{
+	font-family:  "ËÎÌå";
+	font-size: 10pt;
+	color: #333333;
+	border: 1px solid #999999;
+	background:url(../images/util/areabg.gif);
+}
+
+
+.list{
+	width: 130px; 
+    line-height: 14px;;
+    border-style: none;
+    border-width: 0px; 
+	font-family:  "ËÎÌå";
+	font-size: 10pt;
+	color: #333333;
+	border: 1px solid #999999;
+	background:url(../images/util/areabg.gif);
+}
+
+/* 
+.bottm {
+	font-family: "Ó×Ô²";
+	font-size: 12pt;
+	color: #333333;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+}
+
+.addbtn {
+	font-family: "Ó×Ô²";
+	font-size: 12pt; 
+	cursor: hand;
+	padding: 0px;
+	height: 24px;
+	border-top: 0px dotted #5D89A6;
+	border-right: 2px solid #FF9900;
+	border-bottom: 4px solid #FF9900;
+	border-left: 0px dotted #5D89A6;
+  background:url(../images/util/inputbg.gif);
+}
+
+.graphbtn {
+	font-family: "Ó×Ô²";
+	font-size: 18pt; 
+	cursor: hand;
+	padding: 0px;
+	height: 32px;
+	border-top: 1px solid #5D89A6;
+	border-right: 3px solid #5D89A6;
+	border-bottom: 3px solid #5D89A6;
+	border-left: 1px solid #5D89A6;
+  background:url(../images/util/inputbg.gif);}
+
+
+.wenbenkuang {
+	font-family: "Ó×Ô²";
+	font-size: 11pt;
+	color: #333333;
+	border: 1px solid #999999;
+	background:url(../images/util/inputbg.gif);
+}
+
+
+
+
+.go-wenbenkuang {
+	font-family: "Ó×Ô²";
+	font-size: 9pt;
+	color: #333333;
+	background-color: #eeeeee;
+	cursor: hand;
+	padding: 1px;
+	height: 19px;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #FFFFFF;
+}
+
+*/

@@ -1,0 +1,61 @@
+
+<html>
+<head>
+	<title>bar</title>
+	<style>
+		.jd{
+			font-family : Webdings;
+			color : #FFFFFF;
+			cursor : hand;
+		}
+	</style>
+</head>
+<body bgcolor="#e7e7e7" topmargin="2" leftmargin="0">
+<a title="打开/关闭模块树栏">
+<table border=0 cellpadding=0 cellspacing=0 width="100" height="100%" onClick="return slidein();"  class="jd">
+<tr>
+	<TD bgcolor="#000000" class="jd">
+	<div id="bar" onMouseover="this.style.color='red'" onMouseout="this.style.color='white'">3</div></td>
+</tr>
+</table>
+</a>
+</body>
+</html>
+
+
+<!-- <script language="JavaScript" type="text/javascript">
+	function slideout(){
+		bar.innerHTML = '3';
+		parent.menu_main.cols = '165,8,*';
+	}
+	function slidein(){
+		bar.innerHTML = '4';
+		parent.menu_main.cols = '0,8,*';
+	}
+</script> -->
+<!-- <script language=javascript>
+function changeWin(){
+	if(parent.forum.cols!="10,*")
+	{
+		parent.forum.cols="10,*";
+		document.all.menuSwitch.innerHTML="<font class=point>4</font>";
+	}
+	else
+	{
+		parent.forum.cols="140,*";
+		document.all.menuSwitch.innerHTML="<font class=point>3</font>";
+	}
+}
+</script> -->
+ 
+<script language="JavaScript" type="text/javascript"> 
+	function slidein(){
+		if(bar.innerHTML == '4'){
+			bar.innerHTML = '3';
+			parent.menu_main.cols = '200,8,*';
+		}else{
+			bar.innerHTML = '4';
+			parent.menu_main.cols = '0,8,*';
+		}
+	}
+</script>

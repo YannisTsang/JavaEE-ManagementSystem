@@ -1,0 +1,30 @@
+/*页面中特殊字体设置CSS*/
+
+/*字体颜色为深蓝色 用class=text进行引用  */
+.text{
+	font-size:10pt;
+	color: #004080;	
+}
+
+/*字体颜色为紫色 用id=text进行引用 */
+#text{
+	font-size:10pt;
+	color: #cc33cc
+}
+
+/*标题字体 */
+.textTitle {
+	font-family: "黑体";
+	font-size:24px;
+	color: #FF9900;	
+	margin-top:auto
+}
+
+/*着重显示字体 */
+.textStress {
+	font-family: "黑体";
+	font-size:18px;
+	color: #FF0000;	
+	margin-top:auto
+}
+

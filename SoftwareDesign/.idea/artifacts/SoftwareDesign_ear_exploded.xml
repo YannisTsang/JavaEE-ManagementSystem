@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" build-on-make="true" name="SoftwareDesign:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SoftwareDesign_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SoftwareDesign/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

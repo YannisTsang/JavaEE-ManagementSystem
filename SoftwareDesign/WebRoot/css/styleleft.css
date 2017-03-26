@@ -1,0 +1,25 @@
+BODY { }
+       
+A { COLOR: #003333; FONT-SIZE: 12px; TEXT-DECORATION: none} 
+A:visited {color:red;TEXT-DECORATION: none} 
+A:hover { COLOR:yellow; TEXT-DECORATION: underline } 
+A:active {color:#FF8800; TEXT-DECORATION: none} 
+
+.text { FONT-FAMILY: "宋体"; FONT-SIZE: 12px; text-decoration: none; line-height: 21px } 
+.textbbs { FONT-FAMILY: "宋体"; FONT-SIZE: 12px; text-decoration: none; line-height: 18px } 
+.text1 { FONT-FAMILY: "宋体"; FONT-SIZE: 12px; text-decoration: none;} 
+.text1:visited {COLOR: #003333; FONT-SIZE: 12px; TEXT-DECORATION: none} 
+.text1:hover { COLOR:#0033CC; TEXT-DECORATION: underline } 
+.text1:active {color:#FF8800; TEXT-DECORATION: none} 
+TD { FONT-FAMILY: "宋体"; FONT-SIZE:12px } 
+.bbs { FONT-FAMILY: "Arial"; FONT-SIZE:12px } 
+.input {BACKGROUND-COLOR: #CDCDCD; BORDER-BOTTOM: #969696 1px solid; BORDER-LEFT: #EBEBEB 1px solid; 
+        BORDER-RIGHT: #969696 1px solid; BORDER-TOP: #EBEBEB 1px solid; FONT-SIZE: 12px; height:20px } 
+.textfield {BACKGROUND-COLOR: transparent; BORDER-BOTTOM: 1px solid #666699; BORDER-LEFT: 1px solid #666699; 
+            BORDER-RIGHT: 1px solid #666699; BORDER-TOP: 1px solid #666699; COLOR: #000000; FONT-SIZE: 9pt"} 
+.right { BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; BORDER-RIGHT: #6699CC 1px solid; BORDER-TOP: 0px solid } 
+.bottom { BORDER-BOTTOM: 1px solid #6699CC; BORDER-LEFT:0px solid; BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid } 
+.left { BORDER-BOTTOM: 0px solid; BORDER-LEFT: #6699CC 1px solid; BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid } 
+.top { BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; BORDER-RIGHT: 0px solid; BORDER-TOP: #6699CC 1px solid } 
+form { MARGIN: 0px }
+.sec_menu { BORDER-RIGHT: white 0px solid; BACKGROUND: #ebf1f4; OVERFLOW: hidden; BORDER-LEFT: white 0px solid; BORDER-BOTTOM: white 0px solid }

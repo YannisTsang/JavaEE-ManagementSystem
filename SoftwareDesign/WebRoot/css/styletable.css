@@ -1,0 +1,70 @@
+
+/*一般表格内容样式,带边框*/
+.td_brCom{	
+	font-size: 10pt;
+	color: #333333;
+	border: 1px dashed #999999;
+}
+
+/*表格底部加虚线*/
+.td_brFoot{
+	border-bottom:dotted 1px;
+	border-color:#cccccc
+}
+
+/*一般表格 标题样式,带边框*/
+.th_brCom {
+	font-size: 11pt;	
+	color:#004080;
+	border: 1px solid #999999;	
+	
+}
+
+/*一般表格 标题样式,带边框*/
+.th_brComImg {
+	font-size: 11pt;	
+	color:#004080;
+	border: 1px solid #999999;
+	background:url(../images/util/areabg.gif);
+	
+}
+
+/*
+.br_2 {
+	font-family: "幼圆";
+	font-size: 11pt;
+	color: #333333;
+	border-top: 0px dotted #999999;
+	border-right: 1px dotted #999999;
+	border-bottom: 1px dotted #999999;
+	border-left: 1px dotted #999999;
+}
+
+
+.br_1 {
+	font-family: "幼圆";
+	font-size: 11pt;
+	color: #333333;
+	border-top: 0px dotted #999999;
+	border-right: 1px dotted #999999;
+	border-bottom: 1px dotted #999999;
+	border-left: 0px dotted #999999;
+}
+
+.br_edit {
+	font-family: "幼圆";
+	font-size: 11pt;
+	color: #0000FF;
+	border: 0px dashed #999999;
+
+}
+
+.bh {
+
+	font-size: 10pt;
+	font-weight: bolder
+	color: #FF9900  ;
+	background:url(inputbg.gif);
+	border: 1px solid #999999;
+}
+*/

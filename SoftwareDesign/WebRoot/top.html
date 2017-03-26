@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>ILIKE</title>
+<meta http-equiv="Content-Type" content="text/html;">
+<link href="css/stylemain.css" rel="stylesheet" type="text/css"/>
+<SCRIPT src="js/TextColor.js"></SCRIPT>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-size: 28pt;
+	font-family: "黑体";
+	color: #FFFFFF;
+	text-shadow:#999999;
+	letter-spacing: inherit;
+	font-weight: 600;  
+}
+
+body {
+	background-image: url(images/util/back.gif);
+}
+ 
+-->
+</style>
+
+<script>
+function showdate() {
+var today=new Date();
+var theyear=today.getYear();
+var themonth=today.getMonth()+1;
+var thedate=today.getDate();
+var theday=today.getDay();
+
+var dName=new Array("&ETH;&Ccedil;&AElig;&Uacute;&Igrave;ì","&ETH;&Ccedil;&AElig;&Uacute;&Ograve;&raquo;","&ETH;&Ccedil;&AElig;&Uacute;&para;&thorn;","&ETH;&Ccedil;&AElig;&Uacute;&Egrave;&yacute;","&ETH;&Ccedil;&AElig;&Uacute;&Euml;&Auml;","&ETH;&Ccedil;&AElig;&Uacute;&Icirc;&aring;","&ETH;&Ccedil;&AElig;&Uacute;&Aacute;ù");
+for (i=0;i<7;i++)
+{ if (theday==i)
+ { theday=dName[i];break;}
+ }
+  document.write (theyear+"-" + themonth+"-" + thedate);
+
+}
+
+function showweek(){
+		                var deat1=new Date();
+				  switch(deat1.getDay())
+		         {
+				 case 0:var thisDay="日";
+				   break;
+				 case 1:var thisDay="一";
+				   break;
+				 case 2:var thisDay="二";
+				   break;
+				 case 3:var thisDay="三";
+				   break;
+				 case 4:var thisDay="四";
+				   break;
+				 case 5:var thisDay="五";
+				   break;
+				 case 6:var thisDay="六";
+				   break;
+				 }
+				 document.write(" 星期"+thisDay);
+
+}
+function closewindow(){
+	if(confirm("您确定要退出系统吗？")){
+		parent.window.opener = 'xxx';
+    		//window.close();
+		parent.window.close();
+		//return true;
+	}else{
+	return false;
+	}
+}
+</script>
+</head>
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">  
+  
+  <tr>     
+    <td  background="images/mypic/mainback.jpg">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>                              
+          <td width="10%" rowspan="3"><div align="right"><img src="images/mypic/top.jpg" width="122" height="60"></div></td>
+          <td width="60%" rowspan="3" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div align="center"><span class="STYLE1" style="position:relative">
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 人事信息管理平台 </span></div></td>
+          <td width="30%" ><div style="font: bold 36pt sans-serif;">
+	        <span style="position:relative;">
+	        <div align="left"></div>
+          </div>		  </td>
+        </tr>
+        <tr>
+          <td height="13" nowrap>
+      <p align="right"><font color="#006766" face="宋体">
+        <script>showdate()</script>&nbsp;<script>showweek()</script>&nbsp;&nbsp;</font> </td>
+  </tr>
+        <tr>
+          <td height="13" nowrap>
+      <p align="right"> <font color="006766">|</font> <a href="loginUpdatePwd.jsp" target="main"><font color="006766">修改密码</font></a>
+      <font color="006766">|</font><a href="login.jsp" target="_parent" onClick="closewindow();"> <font color="006766">退出系统</font></a> <font color="006766">|</font>&nbsp;&nbsp;     </td>
+        </tr>
+      </table>
+    </td>   
+  </tr> 
+</table>
+</body>
+</html>
+

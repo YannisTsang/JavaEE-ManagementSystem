@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+<head>
+	<title>Destroydrop &raquo; Javascripts &raquo; Tree</title>
+
+	<link rel="StyleSheet" href="css/dtree.css" type="text/css" />
+	<script type="text/javascript" src="css/dtree.js"></script>
+
+</head>
+
+<body background="images/mypic/left.jpg">
+
+
+
+<div class="dtree">
+
+	<p><a href="javascript: d.openAll();">open all</a> | <a href="javascript: d.closeAll();">close all</a></p>
+	<script type="text/javascript">
+    <!--
+		d = new dTree('d');
+       
+	//根节点a0
+		d.add(00,-1,'人事管理系统目录');//00
+	//根子节点a1(a1表示1层)		
+        d.add(01,00,'个人档案');
+        d.add(02,00,'教育培训');
+        d.add(03,00,'部门管理');
+		d.add(04,00,'人事调配');
+		d.add(05,00,'系统管理');
+		
+    //子节点01
+        d.add(0101,01,'员工信息','filePro/employeeInformation.jsp','','main');
+		d.add(0102,01,'员工档案','filePro/file_document.jsp','','main');
+	//子节点02
+	    d.add(0201,02,'类别维护','trainManager/trainType.jsp','','main');
+		d.add(0202,02,'培训记录','trainManager/train_recordshow.jsp','','main');
+        
+	//子节点03
+	    d.add(0301,03,'部门管理','deptmanager.jsp','','main');
+	    d.add(0302,03,'职务管理','jobmanager.jsp','','main');
+	//子节点04
+	    d.add(0401,04,'人事调配','people_deploy.jsp','','main');
+	    d.add(0402,04,'新进员工','filePro/MyJsp.jsp','','main');
+	//子节点05
+	    d.add(0501,05,'角色管理','role.jsp','','main');
+	
+		document.write(d);
+
+		//-->
+	</script>
+
+</div>
+
+
+</body>
+
+</html>

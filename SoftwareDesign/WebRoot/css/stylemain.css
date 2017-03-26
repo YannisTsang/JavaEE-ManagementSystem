@@ -1,0 +1,33 @@
+/*对整个页面进行统一设置*/
+body,td {
+	font-family: "宋体";
+	font-size: 10pt;	
+}
+
+
+p {line-height:15pt}
+
+A:link{
+	color:#004080;
+	font-size:10pt;
+	text-decoration:none
+}
+
+A:visited{
+	color:#004080;
+	font-size:10pt;
+	text-decoration:none
+}
+
+A:hover{
+	color:blue;
+	font-size:10pt;
+	text-decoration:underline
+}
+
+a.r2:link{color:#ffffff;font-size:10pt;text-decoration:none}
+a.r2:visited{color:#ffffff;font-size:10pt;text-decoration:none}
+a.r2:hover{color:#ffff09;font-size:10pt;text-decoration:underline}
+
+.style2{line-height:22pt}
+
